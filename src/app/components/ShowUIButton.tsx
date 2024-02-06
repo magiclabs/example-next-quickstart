@@ -17,7 +17,7 @@ const ShowUIButton = () => {
   // Render the button component if showButton is true, otherwise render nothing
   return (
     <button
-      className="w-auto border border-white font-bold p-2 rounded-md"
+      className="w-auto border border-white font-bold p-2 rounded-md text-color"
       onClick={handleShowUI}
     >
       Show UI

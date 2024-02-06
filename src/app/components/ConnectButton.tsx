@@ -9,6 +9,10 @@ const ConnectButton = () => {
   // Define the event handler for the button click
   const handleConnect = async () => {
     try {
+      console.log("clicked!!")
+      if (!magic) {
+        console.log("No magic")
+      }
       // Try to connect to the wallet using Magic's user interface
       await magic?.wallet.connectWithUI()
       await fetchUser()
@@ -22,7 +26,7 @@ const ConnectButton = () => {
   return (
     <button
       type="button"
-      className="w-auto border border-white font-bold p-2 rounded-md"
+      className="w-auto border border-white text-color font-bold p-2 rounded-md"
       onClick={handleConnect}
     >
       Connect
