@@ -22,7 +22,7 @@ const ConnectButton = () => {
   return (
     <button
       type="button"
-      className="w-auto border border-white font-bold p-2 rounded-md"
+      className="w-auto border border-white text-color font-bold p-2 rounded-md"
       onClick={handleConnect}
     >
       Connect

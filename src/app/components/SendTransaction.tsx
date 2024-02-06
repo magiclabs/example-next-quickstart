@@ -62,7 +62,7 @@ const SendTransaction = () => {
       />
       <button
         type="button"
-        className="border border-white font-bold p-2 rounded-md"
+        className="border border-white font-bold p-2 rounded-md text-color"
         onClick={sendTransaction}
       >
         Send ETH

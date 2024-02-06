@@ -22,3 +22,10 @@ body {
       transparent,
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
+
+/* Setting Text Color */
+.text-color {
+  color: white;
+  /* Set the desired color */
+  font-size: 20px;
+}
